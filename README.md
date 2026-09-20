@@ -6,7 +6,7 @@ Mini sitio web colaborativo para la asignatura Fundamentos WEB, grupo 4303.
 
 | Integrante | Responsabilidad |
 |---|---|
-| Estudiante 1 | Computación en la nube |
+| Alejandro Lopez | Computación en la nube |
 | Santiago Guizado | Tema 2: por definir |
 | Jonathan Gonzales | Tema 3: por definir |
 
