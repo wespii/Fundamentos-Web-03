@@ -7,7 +7,7 @@ Mini sitio web colaborativo para la asignatura Fundamentos WEB, grupo 4303.
 | Integrante | Responsabilidad |
 |---|---|
 | Alejandro Lopez | Computación en la nube |
-| Santiago Guizado | Tema 2: por definir |
+| Santiago Guizado | Internet de las Cosas |
 | Jonathan Gonzales | Ciberseguridad |
 
 ## Descripción
