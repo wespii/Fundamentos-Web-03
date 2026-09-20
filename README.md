@@ -7,7 +7,7 @@ Mini sitio web colaborativo para la asignatura Fundamentos WEB, grupo 4303.
 | Integrante | Responsabilidad |
 |---|---|
 | Alejandro Lopez | Computación en la nube |
-| Santiago Guizado | Internet de las Cosas |
+| Santiago Guizado | Internet de las Cosas IoT |
 | Jonathan Gonzales | Ciberseguridad |
 
 ## Descripción
@@ -17,7 +17,7 @@ El sitio explica conceptos actuales de la computación en la nube mediante tres 
 ## Estructura
 
 - `index.html`: Computación en la nube.
-- `tema2.html`: página de Santiago Guizado.
+- `tema2.html`: Internet de las cosas IoT.
 - `tema3.html`: página de Jonathan Gonzales.
 - `img/`: imágenes utilizadas por las páginas.
 
