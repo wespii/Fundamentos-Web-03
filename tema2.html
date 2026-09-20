@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet de las Cosas (IoT)</title>
+</head>
+<body>
+    <header>
+        <h1>Internet de las Cosas (IoT)</h1>
+        <p>Dispositivos conectados, aplicaciones, sensores y riesgos del IoT.</p>
+    </header>
+
+    <nav aria-label="Navegación principal">
+        <a href="index.html">Computación en la nube</a>
+        <a href="tema2.html">Tema 2</a>
+        <a href="tema3.html">Tema 3</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>¿Qué es el Internet de las Cosas?</h2>
+            <p>
+                El Internet de las Cosas (IoT, por sus siglas en inglés) es una red de
+                objetos físicos —dispositivos, vehículos, electrodomésticos y otros
+                equipos— que incorporan sensores, software y conexión a internet para
+                recopilar e intercambiar datos entre sí y con otros sistemas.
+            </p>
+            <p>
+                A diferencia de una computadora tradicional, un dispositivo IoT suele
+                estar diseñado para una función específica: medir la temperatura, abrir
+                una puerta, registrar el movimiento de una persona o encender una
+                luz. Lo que los conecta es su capacidad de enviar y recibir información
+                sin intervención humana directa.
+            </p>
+        </section>
+
+        <figure>
+            <img src="img/dispositivos-iot.svg" alt="Diagrama de dispositivos IoT conectados a internet e intercambiando datos">
+            <figcaption>Los dispositivos IoT recopilan datos del entorno y los envían a través de internet.</figcaption>
+        </figure>
+
+        <section>
+            <h2>Componentes principales</h2>
+            <p>
+                Un sistema IoT se compone generalmente de sensores que capturan datos
+                del entorno, una conexión de red que transmite esa información, una
+                plataforma o servidor que la procesa (muchas veces en la nube) y una
+                aplicación que permite al usuario visualizar o controlar el dispositivo.
+            </p>
+            <ul>
+                <li><strong>Sensores y actuadores:</strong> capturan datos (temperatura, movimiento, luz, humedad) o ejecutan acciones físicas.</li>
+                <li><strong>Conectividad:</strong> Wi-Fi, Bluetooth, redes móviles o protocolos de bajo consumo como Zigbee.</li>
+                <li><strong>Procesamiento de datos:</strong> generalmente en servidores o servicios en la nube.</li>
+                <li><strong>Interfaz de usuario:</strong> aplicaciones móviles o web para monitorear y controlar los dispositivos.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Tipos de aplicaciones IoT</h2>
+            <p>
+                El IoT se utiliza en distintos entornos, desde el hogar hasta la
+                industria. La elección de sensores y protocolos depende del contexto y
+                de qué tan crítico es el tiempo de respuesta del sistema.
+            </p>
+            <table>
+                <caption>Aplicaciones comunes del IoT</caption>
+                <thead>
+                    <tr>
+                        <th>Ámbito</th>
+                        <th>Qué hace</th>
+                        <th>Ejemplo de uso</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Hogar inteligente</td>
+                        <td>Automatiza y controla dispositivos domésticos</td>
+                        <td>Termostatos, cámaras y asistentes de voz</td>
+                    </tr>
+                    <tr>
+                        <td>Salud (IoMT)</td>
+                        <td>Monitorea signos vitales a distancia</td>
+                        <td>Relojes y pulseras que miden ritmo cardíaco</td>
+                    </tr>
+                    <tr>
+                        <td>Industria (IIoT)</td>
+                        <td>Supervisa maquinaria y procesos productivos</td>
+                        <td>Sensores que detectan fallas antes de que ocurran</td>
+                    </tr>
+                    <tr>
+                        <td>Ciudades inteligentes</td>
+                        <td>Optimiza servicios públicos</td>
+                        <td>Semáforos y alumbrado que se ajustan al tráfico</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Ventajas del IoT</h2>
+            <p>
+                El uso de dispositivos conectados permite automatizar tareas, tomar
+                decisiones basadas en datos en tiempo real y reducir costos operativos.
+                También facilita el monitoreo remoto de espacios, equipos o personas sin
+                necesidad de estar físicamente presente.
+            </p>
+            <ul>
+                <li>Automatización de procesos y ahorro de tiempo.</li>
+                <li>Monitoreo remoto de hogares, cultivos o maquinaria.</li>
+                <li>Recolección de datos para mejorar la toma de decisiones.</li>
+                <li>Mayor eficiencia energética en edificios y ciudades.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Riesgos y consideraciones de seguridad</h2>
+            <p>
+                Como los dispositivos IoT están permanentemente conectados a internet,
+                se convierten en un punto de entrada frecuente para ataques informáticos.
+                Muchos equipos se venden con configuraciones de seguridad débiles o
+                contraseñas predeterminadas que rara vez se cambian.
+            </p>
+            <p>
+                Además de los riesgos de acceso no autorizado, existe preocupación por
+                la privacidad de los datos que estos dispositivos recopilan, ya que
+                suelen almacenarse en servidores externos administrados por terceros.
+            </p>
+            <ul>
+                <li><strong>Contraseñas débiles o por defecto:</strong> facilitan el acceso a personas no autorizadas.</li>
+                <li><strong>Falta de actualizaciones:</strong> muchos dispositivos no reciben parches de seguridad de forma regular.</li>
+                <li><strong>Privacidad de los datos:</strong> la información recolectada puede exponer hábitos y ubicación del usuario.</li>
+                <li><strong>Redes vulnerables:</strong> un dispositivo comprometido puede ser usado como puerta de entrada a toda la red.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Buenas prácticas recomendadas</h2>
+            <p>
+                Para reducir riesgos, se recomienda cambiar las contraseñas predeterminadas
+                de los dispositivos, mantener el firmware actualizado, separar los
+                dispositivos IoT en una red distinta a la de los equipos principales y
+                revisar los permisos que solicitan las aplicaciones asociadas.
+            </p>
+            <p>
+                Para ampliar el tema, consulta las páginas de
+                <a href="index.html">Computación en la nube</a> y
+                <a href="tema3.html">Tema 3</a> del equipo.
+            </p>
+        </section>
+
+        <section>
+            <h2>Fuentes consultadas</h2>
+            <ul>
+                <li><a href="https://www.ibm.com/mx-es/topics/internet-of-things">IBM: ¿Qué es el Internet de las Cosas (IoT)?</a></li>
+                <li><a href="https://aws.amazon.com/es/what-is/iot/">Amazon Web Services: ¿Qué es IoT?</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Fundamentos WEB - Grupo 4303</p>
+    </footer>
+</body>
+</html>
