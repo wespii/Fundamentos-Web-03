@@ -1,0 +1,25 @@
+:root {
+    --color-primary: #17365d;
+    --color-secondary: #2f75b5;
+    --color-accent: #b5533c;
+    --color-bg: #f4f6f8;
+    --color-surface: #ffffff;
+    --color-text: #1f2937;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
