@@ -23,3 +23,28 @@ img {
     max-width: 100%;
     height: auto;
 }
+.site-header {
+    background-color: var(--color-primary);
+    color: white;
+    padding: 2rem 1rem;
+}
+
+.site-header__title {
+    margin: 0;
+}
+
+.main-nav {
+    background-color: var(--color-surface);
+    padding: 1rem;
+}
+
+.main-nav a {
+    color: var(--color-primary);
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.main-nav a:hover,
+.main-nav a:focus {
+    text-decoration: underline;
+}
